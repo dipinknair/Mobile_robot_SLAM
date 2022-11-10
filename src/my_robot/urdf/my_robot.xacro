@@ -173,6 +173,7 @@
     <child link="camera" />
   </joint>
 <!-- Add RGB camera -->
+
   <joint name="camera_optical_joint" type="fixed">
     <origin xyz="0 0 0" rpy="-1.5707 0 -1.5707"/>
     <parent link="camera"/>
